@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# State files
+autotrader_v2_state.json
+autotrader_v2_log.json
+kalshi_trader_state.json
+kalshi_autotrader_state.json
+*.json
+
+# Secrets
+*.key
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
