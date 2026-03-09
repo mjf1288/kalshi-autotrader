@@ -491,7 +491,7 @@ def run(dry_run: bool = False) -> dict:
     Returns summary dict.
     """
     client = KalshiClient(
-        api_key_id=os.environ.get("KALSHI_API_KEY_ID", "7d3dd187-0c77-4650-b100-3ae589ef8098"),
+        api_key_id=os.environ["KALSHI_API_KEY_ID"],
         private_key_path=os.environ.get("KALSHI_PRIVATE_KEY_PATH",
             os.path.join(os.path.dirname(os.path.abspath(__file__)), "kalshi-key.key")),
     )
